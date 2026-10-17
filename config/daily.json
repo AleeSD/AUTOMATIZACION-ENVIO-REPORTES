@@ -1,0 +1,13 @@
+{
+  "timezone": "America/Lima",
+  "hour": 8,
+  "minute": 0,
+  "send": true,
+  "delivery_format": "pdf",
+  "stable_seconds": 60,
+  "template": {
+    "name": "",
+    "language": "es",
+    "body_parameters": ["empresa", "fecha", "placas", "alertas"]
+  }
+}

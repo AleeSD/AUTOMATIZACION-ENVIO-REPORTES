@@ -1,0 +1,10 @@
+{
+  "name": "O.S. Logistics - GPS simulacion local",
+  "active": false,
+  "nodes": [
+    {"parameters": {}, "id": "manual", "name": "Ejecutar demo", "type": "n8n-nodes-base.manualTrigger", "typeVersion": 1, "position": [0, 0]},
+    {"parameters": {"method": "POST", "url": "http://127.0.0.1:8765/run", "authentication": "genericCredentialType", "genericAuthType": "httpHeaderAuth", "options": {"timeout": 120000}}, "id": "process", "name": "Procesar y simular", "type": "n8n-nodes-base.httpRequest", "typeVersion": 4.2, "position": [260, 0]}
+  ],
+  "connections": {"Ejecutar demo": {"main": [[{"node": "Procesar y simular", "type": "main", "index": 0}]]}},
+  "settings": {"executionOrder": "v1", "timezone": "America/Lima"}
+}

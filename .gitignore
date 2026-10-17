@@ -1,0 +1,14 @@
+.venv/
+.runtime/
+.env
+__pycache__/
+REPORTES ONWAY/
+UNIDADES Y RUC.xlsx
+config/*.local.json
+outputs/*
+!outputs/*.md
+work/
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep

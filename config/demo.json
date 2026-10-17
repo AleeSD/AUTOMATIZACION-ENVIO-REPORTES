@@ -1,0 +1,7 @@
+{
+  "input": "data/samples/alertas.csv",
+  "assignments": "data/samples/asignaciones.csv",
+  "output": "data/output",
+  "date": "2026-10-16",
+  "columns": {"placa": "placa", "fecha": "fecha", "alerta": "alerta", "conductor": "conductor"}
+}

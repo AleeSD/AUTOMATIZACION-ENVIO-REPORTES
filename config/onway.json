@@ -1,0 +1,27 @@
+{
+  "parser": "onway",
+  "input": "REPORTES ONWAY",
+  "vehicles": "UNIDADES Y RUC.xlsx",
+  "output": "outputs/reportes",
+  "date": "2026-10-15",
+  "routing": "config/destinatarios.local.json",
+  "pdf_reports": true,
+  "included_alerts": [
+    "Aceleración brusca", "Acelerado y giro brusco", "Frenado brusco",
+    "Frenado y giro brusco", "Giro brusco", "Exceso de velocidad en segmento vial",
+    "Excedió el límite de velocidad", "SOS", "Fuente principal desconectada", "Bache"
+  ],
+  "excluded_alerts": [
+    "Vehículo encendido", "Vehículo apagado", "Llegó a la zona", "Salió de zona",
+    "Ingreso a camino vecinal", "Salida de camino vecinal", "Se detuvo", "Se movio",
+    "Encendido o Entró en cobertura", "Inicio de ralentí", "Fin de ralentí",
+    "Fuente principal conectada"
+  ],
+  "detail_columns": [
+    "Placa/Patente", "Empresa", "Conductor", "Fecha", "Hora", "Latitud", "Longitud",
+    "Dirección", "Alerta", "Alerta alias", "Odómetro (Km)", "Zona", "Velocidad (Km/h)",
+    "Velocidad máxima permitida", "Velocidad máxima alcanzada", "Velocidad promedio",
+    "Duración (segundos)", "Severidad de la alerta", "Fecha y hora de inicio del exceso",
+    "Fecha y hora de fin del exceso", "Notas"
+  ]
+}

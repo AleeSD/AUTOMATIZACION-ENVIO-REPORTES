@@ -1,0 +1,6 @@
+placa,fecha,alerta,conductor
+ABC-123,2026-10-16 08:15:00,Exceso de velocidad,Conductor demo A
+ABC123,2026-10-16 09:30:00,Frenado brusco,Conductor demo A
+DEF456,2026-10-16 10:00:00,Exceso de velocidad,Conductor demo B
+GHI789,2026-10-16 11:00:00,Desvío de ruta,Conductor demo C
+GHI789,2026-10-16 11:00:00,Desvío de ruta,Conductor demo C
